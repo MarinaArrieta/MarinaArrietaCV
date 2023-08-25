@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #07031E;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
+
+.marina{
+    width: 97%;
+}
+
+.titulo{
+    font-family: 'Rajdhani', sans-serif;
+    width: 95%;
+    display: flex;
+    flex-direction: initial;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h1{
+    background: #048C7F;
+    text-align: center;
+    font-size: 1.6em;
+    width: 11%;
+    margin: 0;
+    padding: 10px;
+    border-radius: 33px;
+    text-shadow: -2px 3px 1px black;
+}
+.fa-user-astronaut{
+  color: aliceblue;
+}
+.fa-user-astronaut:hover{
+  color: #048C7F;
+}
+
+h1:hover{
+    background: #07031E;
+    color: #048C7F;
+    font-size: 2em;
+}
+
+h2{
+    background: #6E65A6;
+    color: aliceblue;
+    text-align: center;
+    font-size: 1.6em;
+    width: 11%;
+    margin: 0;
+    padding: 10px;
+    border-radius: 33px;
+    text-shadow: -2px 3px 1px black;  
+}
+.fa-user-graduate{
+  color: aliceblue;
+}
+.fa-user-graduate:hover{
+  color: #6E65A6;
+}
+h2:hover{
+    background: #07031E;
+    color: #6E65A6;
+    font-size: 2em;
+}
+
+h3{
+    background: #D99543;
+    color: aliceblue;
+    text-align: center;
+    font-size: 1.6em;
+    width: 11%;
+    margin: 0;
+    padding: 10px;
+    border-radius: 33px;
+    text-shadow: -2px 3px 1px black;
+}
+.fa-phone{
+  color: aliceblue;
+}
+.fa-phone:hover{
+  color: #D99543;
+}
+h3:hover{
+    background: #07031E;
+    color: #D99543;
+    font-size: 2em;
+}
+
+  /* SOBRE MI */
+#yo{
+  background-color: #048C7F;
+}
+.sobremi{
+  text-shadow: -2px 3px 1px #000000;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 32px;
+  color: #D99543;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+p{
+  padding: 5% 5% 0 5%;
+  font-family: 'Kalam', cursive;
+  font-size: 20px;
+  text-shadow: -1px 1px 2px #c5d4efc9;
+  font-weight: bold;
+  margin-top: 1px;
+  margin-bottom: 0px;
+  text-align: justify;
+}
+.iconos{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  margin-bottom: 12%;
+}
+.fa-dog{
+  background-color: #6E65A6;
+  text-align: center;
+  color: aliceblue;
+  text-shadow: -2px 3px 1px #000000;
+  box-shadow: -2px 3px 1px #07031e;
+  font-size: 1.6em;
+  width: 7%;
+  margin: 0;
+  padding: 10px;
+  border-radius: 31px;
+}
+.fa-music{
+  background-color: #6E65A6;
+  text-align: center;
+  color: aliceblue;
+  text-shadow: -2px 3px 1px #000000;
+  box-shadow: -2px 3px 1px #07031e;
+  font-size: 1.6em;
+  width: 7%;
+  margin: 0;
+  padding: 10px;
+  border-radius: 31px;
+}
+.fa-person-walking{
+  background-color: #6E65A6;
+  text-align: center;
+  color: aliceblue;
+  text-shadow: -2px 3px 1px #000000;
+  box-shadow: -2px 3px 1px #07031e;
+  font-size: 1.6em;
+  width: 7%;
+  margin: 0;
+  padding: 10px;
+  border-radius: 31px;
+}
+.fa-beer-mug-empty{
+  background-color: #6E65A6;
+  text-align: center;
+  color: aliceblue;
+  text-shadow: -2px 3px 1px #000000;
+  box-shadow: -2px 3px 1px #07031e;
+  font-size: 1.6em;
+  width: 7%;
+  margin: 0;
+  padding: 10px;
+  border-radius: 31px;
+}
+.fa-pizza-slice{
+  background-color: #6E65A6;
+  text-align: center;
+  color: aliceblue;
+  text-shadow: -2px 3px 1px #000000;
+  box-shadow: -2px 3px 1px #07031e;
+  font-size: 1.6em;
+  width: 7%;
+  margin: 0;
+  padding: 10px;
+  border-radius: 31px;
+}
+.fa-plane-departure{
+  background-color: #6E65A6;
+  text-align: center;
+  color: aliceblue;
+  text-shadow: -2px 3px 1px #000000;
+  box-shadow: -2px 3px 1px #07031e;
+  font-size: 1.6em;
+  width: 7%;
+  margin: 0;
+  padding: 10px;
+  border-radius: 31px;
+}
+  /* ESTUDIOS */
+#estudios{
+  background-color: #6E65A6;
+}
+h5{
+  text-shadow: -2px 3px 1px #000000;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 32px;
+  color: #d99543;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18px;
+  margin-top: 37px;
+}
+#estudios img{
+  width: 347px;
+  margin-bottom: 22px;
+}
+.img1, .img2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.github{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 7% 0 7% 0;
+  background-color: #4d4678;
+}
+.git{
+  font-family: 'Quicksand', sans-serif;
+  padding-top: 0;
+  color: #eee;
+  text-shadow: -3px 2px 0px #07031e;
+  margin-bottom: 30px;
+}
+.fa-arrow-down{
+  margin-left: 8px;
+}
+.fa-github{
+  font-size: 40px;
+  color: #eee;
+  text-shadow: -2px 3px 1px #000000;
+}
+.fa-github:hover{
+  color: #048C7F;
+}
+#contacto{
+  background-color: #d99543;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 18%;
+}
+.contactoicono{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+h6{
+  text-shadow: -2px 2px 0px #07031e;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 32px;
+  color: #048c7f;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18px;
+  margin-top: 37px;
+}
+.fa-envelope, .fa-linkedin{
+  background-color: #048c7f;
+  text-align: center;
+  color: aliceblue;
+  text-shadow: -2px 3px 1px #000000;
+  box-shadow: -2px 3px 1px #07031e;
+  font-size: 1.6em;
+  margin: 0;
+  padding: 10px;
+  border-radius: 31px;
+}
+.fa-envelope:hover, .fa-linkedin:hover{
+  color: #6E65A6;
+}
+@media (min-width: 768px) {
+    .img{
+        width: 55%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .marina {
+        width: 76%;
+    }
+    .contenedor{
+        flex-direction: initial;
+    }
+    .titulo{
+        width: 40%;
+        height: 100%;
+        flex-direction: column;
+    }
+    h1, h2, h3{
+        font-size: 2em;
+        width: 14%;
+        border-radius: 45px;
+    }
+    h1:hover{
+      font-size: 3em;
+    }
+    h2:hover{
+      font-size: 3em;
+    }
+    h3:hover{
+      font-size: 3em;
+    }
+    .fa-dog{
+      font-size: 2em;
+      width: 5%;
+      border-radius: 45px;
+    }
+    .fa-music{
+      font-size: 2em;
+      width: 5%;
+      border-radius: 45px;
+    }
+    .fa-person-walking{
+      font-size: 2em;
+      width: 5%;
+      border-radius: 45px;
+    }
+    .fa-beer-mug-empty{
+      font-size: 2em;
+      width: 5%;
+      border-radius: 45px;
+    }
+    .fa-pizza-slice{
+      font-size: 2em;
+      width: 5%;
+      border-radius: 45px;
+    }
+    .fa-plane-departure{
+      font-size: 2em;
+      width: 5%;
+      border-radius: 45px;
+    }
+    #contacto{
+      padding-bottom: 8%;
+    }
+}
+
+@media (min-width: 1024px) {
+    h1, h2, h3 {
+        width: 45px;
+        border-radius: 40px;
+    }
+    .iconos {
+      margin-bottom: 8%;
+    }
+    .fa-dog{
+      width:36px;
+    }
+    .fa-music{
+      width:36px;
+    }
+    .fa-person-walking{
+      width:36px;
+    }
+    .fa-beer-mug-empty{
+      width:36px;
+    }
+    .fa-pizza-slice{
+      width:36px;
+    }
+    .fa-plane-departure{
+      width:36px;
+    }
+    .img1, .img2 {
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+    #estudios img {
+      width: 321px;
+    }
+}
+
+@media (min-width: 1080px) {
+    h1, h2, h3 {
+        width: 15%;
+        border-radius: 40px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .marina {
+        width: 58%;
+    }
+    h1, h2, h3 {
+        width: 54px;
+        border-radius: 45px;
+        font-size: 39px;
+    }
+    .sobremi{
+      font-size: 37px;
+    }
+    p{
+      font-size: 25px;
+      padding: 3% 5% 0 5%;
+    }
+    .fa-dog{
+      width: 53px;
+      font-size: 37px;
+      border-radius: 12px;
+    }
+    .fa-music{
+      width: 53px;
+      font-size: 37px;
+      border-radius: 12px;
+    }
+    .fa-person-walking{
+      width: 53px;
+      font-size: 37px;
+      border-radius: 12px;
+    }
+    .fa-beer-mug-empty{
+      width: 53px;
+      font-size: 37px;
+      border-radius: 12px;
+    }
+    .fa-pizza-slice{
+      width: 53px;
+      font-size: 37px;
+      border-radius: 12px;
+    }
+    .fa-plane-departure{
+      width: 53px;
+      font-size: 37px;
+      border-radius: 12px;
+    }
+    #estudios img {
+      width: 431px;
+    }
+    h5 {
+      font-size: 42px;
+      margin-bottom: 30px;
+    }
+    h6{
+      margin-bottom: 46px;
+      font-size: 41px;
+    }
+    .fa-envelope, .fa-linkedin {
+      font-size: 37px;
+    }
+}
+
+@media (min-width: 2560px){
+    .marina {
+        width: 56%;
+    }
+    h1, h2, h3 {
+        width: 11%;
+        border-radius: 68px;
+        font-size: 5em;
+    }
+    #estudios img {
+      width: 753px;
+    }  
+}
